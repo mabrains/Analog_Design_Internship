@@ -1,2 +1,2 @@
-# Analog_Design_Internship
+# Mabrains Analog Design Internship
 Analog Design Internship using Skywater 130nm
