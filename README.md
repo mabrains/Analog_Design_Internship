@@ -8,4 +8,3 @@ Analog Design Internship using Skywater 130nm
 
 [Slides](https://drive.google.com/drive/folders/1OWcbg8f48_ilr8jptdFEA3nbNeQyD0Hi)
 
-[labs(Cadence)](https://drive.google.com/drive/folders/1bVQrHuBM_Zyx9GM0jdYwGqFmFIBjb9Fk)
