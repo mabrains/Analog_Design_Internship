@@ -1,0 +1,16 @@
+* RLC simulation 
+V1 1 a AC 1 0
+V2 a 0 PULSE(0 1V 0 2ns 2ns 100ns 100ns)
+R1 1 b 0.95
+L1 b 2 1n
+C1 2 0 1n
+.control
+ac DEC 10000 15k 10G
+
+plot db(V(2))
+plot 180/PI*phase(v(2))
+
+tran 1ns 100ns
+plot V(2) 
+.endc
+.end

@@ -1,0 +1,15 @@
+* high pass filter simulation
+V1 1 a AC 1 0
+V2 a 0 PULSE(0 1V 0 2ns 2ns 5000ns 5000ns)
+R1 2 0 1k
+C1 1 2 1n
+.control
+ac DEC 300 100 500K
+
+plot db(V(2))
+plot 180/PI*phase(v(2))
+
+tran 1ns 5000ns
+plot V(2) 
+.endc
+.end
